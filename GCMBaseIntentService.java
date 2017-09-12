@@ -52,7 +52,7 @@ import java.util.concurrent.TimeUnit;
  */
 public abstract class GCMBaseIntentService extends IntentService {
 
-    public static final String TAG = "GCMBaseIntentService";
+    public static final String TAG = "GCMIntentService";
 
     // wakelock
     private static final String WAKELOCK_KEY = "GCM_LIB";
